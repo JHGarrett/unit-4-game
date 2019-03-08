@@ -1,0 +1,20 @@
+.jumbotron{                         /* to style the title*/    
+    border: ridge 10px #56ade7;    
+    text-align: center;
+    color: #56ade7;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right:20%;  
+    margin-bottom: 0;  
+    padding: 15px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+body {                              /* to style the body with back ground image*/
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-image: url("../images/crystals.png");
+    background-repeat:no-repeat;
+    background-size:cover;    
+}
