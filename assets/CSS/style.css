@@ -64,15 +64,15 @@ button:active {                /* crystal click */
 #endScreen{                    /* for end screen styles */
     position: absolute;
     z-index: 101;
-    width: 600px;
+    width: 1000px;
     height: 400px;
     background-color: rgba(44, 69, 212, 0.7);
-    margin-left: 250px;    
+    margin-left: 60px;    
 }
 
 #endScreenContent{             /* end screen content style */
-    width: 400px;
-    height: 200px;
+    width: 900px;
+    height: 500px;
     padding: 20px;    
     margin: 60px;
     text-align: center;
