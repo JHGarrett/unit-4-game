@@ -1,0 +1,98 @@
+.jumbotron{                         /* to style the title*/    
+    border: ridge 10px #56ade7;    
+    text-align: center;
+    color: #56ade7;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right:20%;  
+    margin-bottom: 0;  
+    padding: 15px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+body {                              /* to style the body with back ground image*/
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-image: url("../images/crystals.png");
+    background-repeat:no-repeat;
+    background-size:cover;    
+}
+.row{                               /* to style the rows for content*/
+    background-color: white;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 20%;
+    margin-right:20%;
+    margin-bottom: 0;
+    padding: 15px;
+    border: solid 3px #56ade7;
+}
+
+.col-md-6{                         /* font size for score row */
+    font-size: 25px;    
+}
+
+img{                              /* style for crystal images */
+    height: 100px;
+    width: auto;
+    transition: all 5s ease-in-out;    
+} 
+
+/* maybe try to add some animation if possible */
+
+col-md-3 {                      /* crystal row */
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+button {                        /* crystal style */
+    display: inline-block;
+    border: none;   
+    background: #fff;
+    color: #fff;  
+}
+
+button:focus {                 /* crystal style */
+    outline: 1px solid #fff;   
+}
+
+button:active {                /* crystal click */
+    transform: scale(0.75);
+}
+
+#endScreen{                    /* for end screen styles */
+    position: absolute;
+    z-index: 101;
+    width: 600px;
+    height: 400px;
+    background-color: rgba(44, 69, 212, 0.7);
+    margin-left: 250px;    
+}
+
+#endScreenContent{             /* end screen content style */
+    width: 400px;
+    height: 200px;
+    padding: 20px;    
+    margin: 60px;
+    text-align: center;
+}
+
+#endScreen h2{                /* end screen top text */
+    color: white;
+    font-size: 28px;
+    text-align: center
+}
+
+#endScreen h3{                 /* end screen bottom text */
+    color: white;
+    font-size: 22px;
+    text-align: center
+}
+
+#btnReplay{                    /* replay button styles */
+    display: inline-block;
+    border: none;       
+    background-color: #050d53;  
+    color: white;
+}
