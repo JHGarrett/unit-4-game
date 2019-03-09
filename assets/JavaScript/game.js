@@ -91,7 +91,7 @@ $(document).ready(function() {
 			$("#losses").html("Losses: " + losses);
 			$("#endScreen").toggle();
 			$("h2").text("SORRY,YOU LOST!!");
-			$("h3").html("Computer wins");			
+			$("h3").html("Computer wins");	d		
 		}  //end loss
 	});  //end function game
 
