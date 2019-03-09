@@ -14,7 +14,7 @@ body {                              /* to style the body with back ground image*
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 15px;
     font-weight: bold;
-    background-image: url("../images/crystals.png");
+    background-image: url("../Images/crystals.png");
     background-repeat:no-repeat;
     background-size:cover;    
 }
